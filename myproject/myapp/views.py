@@ -49,3 +49,6 @@ def scrape_data(request):
     # Return the scraped data
     return Response({"columns": head, "rows": rows})
 
+# url = 'https://results.eci.gov.in/AcResultGenOct2024/partywisewinresult-834U08.htm'
+
+
